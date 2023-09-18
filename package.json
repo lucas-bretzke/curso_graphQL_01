@@ -1,0 +1,22 @@
+{
+  "name": "schema-query",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext js,graphql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "class-validator": "^0.14.0",
+    "graphql": "^15.8.0",
+    "graphql-import": "^1.0.2",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

@@ -1,0 +1,8 @@
+type Query {
+  usuarioLogado: Usuario
+  produtoEmDestaque: Produto
+  usuarios: [Usuario!]!
+  usuario(id: ID!): Usuario
+  perfis: [Perfil!]!
+  perfil(id: ID!): Perfil
+}
